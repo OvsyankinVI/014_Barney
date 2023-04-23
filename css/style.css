@@ -67,3 +67,14 @@ i:hover {
     color: #6642f7;
     font-size: 50px;
 }
+.grid {
+    display: flex;
+}
+.icon-paw {
+    font-size: 25px;
+    color: #000;
+    padding-top: 84px;
+}
+.text-1 {
+    width: 350px;
+}
