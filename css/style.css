@@ -1,0 +1,69 @@
+/* Normalize */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* Variables */
+:root {
+    --color-blue: #00A4E5;
+    --color-grey: #79868d;
+    --color-white: #fff;
+}
+/* Overall Width */
+.container {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    background-color: #c0e3e2;
+}
+.text-h2 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px auto 30px auto;
+    font-size: 25px;
+}
+.text-h3 {
+    text-align: center;
+    margin: 30px auto 0px auto;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+.name {
+    margin-top: 15px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+.icon-phone-circled, .icon-telegram, .icon-mail-circled, .icon-facebook-circled, .icon-instagram-circled {
+    color: #17b546;
+    font-size: 50px;
+}
+i:hover {
+    color: rgb(254, 120, 120);
+}
+.ang {
+    color: #c264af;
+}
+.angel {
+    color: #6642f7;
+    font-size: 50px;
+}
