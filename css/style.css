@@ -25,23 +25,65 @@ body {
     margin: 0 auto;
 }
 /* Header */
-.header {
-    background-color: #c0e3e2;
+header, footer {
+background-color: #99c2d989;
 }
 .text-h2 {
     text-align: center;
-    padding-top: 30px;
-    margin: 0px auto 30px auto;
-    font-size: 25px;
+    padding: 15px 0;
+    margin: 0px auto 15px auto;
+    font-size: 35px;
+    width: 370px;
+}
+.barney {
+    width: 250px;
+    height: 250px;
+/*     border-radius: 50%; */
+    display: block;
+    margin: 0 auto;
+    box-shadow: -20px -20px 0px -2px rgba(230, 230, 230, 1);
 }
 .text-h3 {
     text-align: center;
-    margin: 30px auto 0px auto;
-    font-size: 15px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 15px auto 15px auto;
+    width: 370px;
 }
+.owners__name {
+    width: 410px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.owners__name-cont {
+    width: 325px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center
+}
+.owners {
+    margin-bottom: 20px;
+}
+footer {
+    height: 100px;
+}
+.lag {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+
+
 a {
-    text-decoration: none;
+    transform: 5s;
 }
 .name {
     margin-top: 15px;
@@ -56,9 +98,11 @@ a {
 .icon-phone-circled, .icon-telegram, .icon-mail-circled, .icon-facebook-circled, .icon-instagram-circled {
     color: #17b546;
     font-size: 50px;
+    border-radius: 50%;
 }
 i:hover {
     color: rgb(254, 120, 120);
+    box-shadow: -19px 28px 29px 7px rgba(34, 60, 80, 0.2);
 }
 .ang {
     color: #c264af;
